@@ -1,0 +1,27 @@
+/*
+*No extra small, defualt is less than 576px so that is starting point
+*/
+
+
+/*
+*Small devices 576px and up
+*/
+@include media-breakpoint-up(sm) { ... }
+
+
+/*
+*Medium devices 768px and up
+*/
+@include media-breakpoint-up(md) { ... }
+
+
+/*
+*Large devices 992px and up
+*/
+@include media-breakpoint-up(lg) { ... }
+
+
+/*
+*Extra large devices 1200px and up
+*/
+@include media-breakpoint-up(xl) { ... }
