@@ -1,0 +1,135 @@
+/* This is the CSS for the blocks.  I wanted to keep it seperate
+*simply to make it cleaner when working on the blocks
+*/
+
+h1{
+   font-size:20px;
+   text-align: left;
+   text-transform:capitalize;
+}
+
+/*
+*
+*Start of the blocks
+*
+*/
+.project-block{
+    position: relative;
+    overflow: hidden;
+    margin-bottom:10px;
+    perspective:1000px;
+    -webkit-perspective:1000px;
+}
+/* THUMBNAIL IMAGES FOR FRONT OF BLOCKS */
+
+.project-tn{
+  width: 100%;
+  height: 220px;
+  padding: 20px;
+  text-align: center;
+  transition: all .5s ease;
+}
+
+/*
+*
+*THE DETAIL TEXT ON ROTATED BLOCKS AND ROTATION AND VERTICAL MOVEMENT
+*
+*/
+.project-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: all .5s ease;
+    background-color: #474747;
+    backface-visibility:hidden;
+    transform-style: preserve-3d;
+    -webkit-transform: translateY(110px) rotateX(-90deg);
+    -moz-transform: translateY(110px) rotateX(-90deg);
+    -ms-transform: translateY(110px) rotateX(-90deg);
+    -o-transform: translateY(110px) rotateX(-90deg);
+    transform: translateY(110px) rotateX(-90deg);
+}
+
+/*
+*
+* VERTICAL MOVEMENT AND STYLE FOR BLOCK, THUMNAIL AND FRONT TEXT
+*
+*/
+.project-block .project-tn .front-content{
+    position: relative;
+    top:80px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.project-block .project-icon .front-content img {
+    font-size: 28px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.project-block .project-tn .front-content h3 {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/*
+*
+*STYLE FOR CONTENT ON THE UNDERSIDE OF THE BLOCK
+*
+*/
+.project-block .project-content h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom:10px;
+    text-transform: uppercase;
+}
+.project-block .project-content p {
+    font-size: 16px;
+    color: #b1b1b1;
+    margin:0;
+}
+
+/*
+*
+*BLOCK COLORS, ROTATION, VERTICAL MOVEMENT, HOVER ACTIONS
+*
+*/
+.yellow{background-color: #916003;}
+.orange{background-color: #993400;}
+.blue{background-color: #003466;}
+.green{background-color: #006666;}
+.project-block:hover .project-tn{
+    -webkit-transform: translateY(-110px) rotateX(90deg);
+    -moz-transform: translateY(-110px) rotateX(90deg);
+    -ms-transform: translateY(-110px) rotateX(90deg);
+    -o-transform: translateY(-110px) rotateX(90deg);
+    transform: translateY(-110px) rotateX(90deg);
+    opacity: 5;
+}
+/*
+*
+*MOUSE HOVER ACTIONS FOR THE CONTENT ON THE UNDERSIDE
+*
+*/
+.project-block:hover .project-content {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+    -moz-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+    -o-transform: rotateX(0);
+    transform: rotateX(0);
+}
