@@ -135,7 +135,7 @@ ul {
 .hero {
   width: 100%;
   position: relative;
-  background-image: url("https://s5.postimg.cc/j7g9lk1bb/dog.jpg");
+  background-image: url("/images.coffee.jpg");
   background-size: cover;
   height: 300px;
 }
