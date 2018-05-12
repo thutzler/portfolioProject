@@ -24,7 +24,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   width: 100%;
-  height: auto;
+
 }
 .col {
   width: 100%;
@@ -132,16 +132,16 @@ ul {
 *
 */
 
-.bgimage {
+.hero-image {
   width:100%;
   height:500px;
-  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background: url("./images/coffee.");
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
   background-attachment: fixed;
 }
-.bgimage h5 {
+.hero-image h5 {
   color:white;
   text-shadow:2px 2px #333;
 }
