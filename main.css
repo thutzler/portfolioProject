@@ -174,33 +174,23 @@ ul {
 */
 
 .hero-image {
-    height: 50%;
-    position: relative;
     background-image: url("images/coffee.jpg");
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
-.hero  {
-  position: absolute;
-  top: 50%;
-  left: 65%;
-  transform: translate(-50%, -50%);
-  padding-right: 5em;
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
-.hero-title h1 {
-  color:white;
-  text-shadow:2px 2px #333;
-  font-style: oblique;
-
-}
-
-.hero-tagline h3 {
-  color:white;
-  text-shadow:2px 2px #333;
-}
 
 /*
 *
