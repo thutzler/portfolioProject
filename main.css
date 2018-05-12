@@ -137,16 +137,16 @@ ul {
   background: url("images/coffee.jpg") 50% no-repeat;
   background-size: cover;
   height: 60vh;
-  text-align: right;
+  text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-justify-content: center;
+  -webkit-justify-content: right;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content: right;
 }
 
 .hero-section .hero-section-text {
