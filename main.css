@@ -171,52 +171,22 @@ ul {
 
 /*
 *
-*HEADER
+*BANNER
 *
 */
 
-.hero-image {
-    height: 50%;
-    position: relative;
-    background-image: url("images/coffee.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.banner-img {
+  width:100%;
+  height:500px;
+  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
 }
-
-.hero-banner {
-  position: absolute;
-  top: 50%;
-  left: 65%;
-  transform: translate(-50%, -50%);
-  font-style: oblique;
-  padding-right: 5em;
-}
-
-.banner-title {
-  font-size: 36px;
-  font-weight: 900;
-  color: #fff;
-}
-
-.tagline {
-  font-size: 24px;
-  font-weight: 900;
-  color: #fff;
-  padding-top: 5em;
-}
-
-.display-1{
-  color: ##006666;
-  text-align: right;
-  padding-right: 1em;
-}
-
-.display-2 {
-  color: #006666;
-  text-align: right;
-  padding-right: 1em;
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
 }
 
 /*
