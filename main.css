@@ -174,7 +174,7 @@ ul {
 */
 
 .hero-banner {
-  background: url("images/coffee.jpeg") 50% no-repeat;
+  background-image: url("images/coffee.jpg") 50% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
