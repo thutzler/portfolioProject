@@ -173,23 +173,48 @@ ul {
 *
 */
 
-.hero-banner {
-  background-image: url("images/coffee.jpg");
-  background-size: cover;
-  height: 50%;
-  text-align: center;
-  display: flex;
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-   justify-content: center;
+.hero-image {
+    height: 50%;
+    position: relative;
+    background-image: url("images/coffee.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.hero-banner .hero-text {
+.hero-banner {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-style: oblique;
+  padding-right: 5em;
+}
+
+.banner-title {
+  font-size: 36px;
+  font-weight: 900;
   color: #fff;
-  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.tagline {
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  padding-top: 5em;
+}
+
+.display-1{
+  color: ##006666;
   text-align: right;
+  padding-right: 1em;
+}
+
+.display-2 {
+  color: #006666;
+  text-align: right;
+  padding-right: 1em;
 }
 
 /*
