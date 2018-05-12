@@ -61,9 +61,6 @@ h1, h2, h3, h4, h5 {
   vertical-align: inherit;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 ul {
   list-style: none;
