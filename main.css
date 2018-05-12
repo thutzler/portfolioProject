@@ -141,11 +141,13 @@ ul {
 }
 
 .hero-title {
-   text-align: right;
-   color: #fff;
-   font-style: oblique;
-   margin-top: 30px;
-  
+
+   text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 
 
 /*
