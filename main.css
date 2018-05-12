@@ -142,10 +142,10 @@ ul {
 
 .hero-title {
 
-   text-align: center;
+   text-align: right;
     position: absolute;
-    top: 70%;
-    right: 30%;
+    top: 50%;
+    right: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
 
