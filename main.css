@@ -176,7 +176,8 @@ ul {
 */
 
 .hero {
- height: 62%;
+ height: 90%;
+ width: 100%;
  position: relative;
  background-image: url("images/coffee.jpg");
  background-position: center;
