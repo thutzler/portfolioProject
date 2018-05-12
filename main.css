@@ -147,7 +147,10 @@ ul {
    vertical-align: middle;
 }
 
-
+.hero-span {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 
 /*
