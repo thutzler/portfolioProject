@@ -141,11 +141,9 @@ ul {
 }
 
 .hero-title {
-
    text-align: right;
     position: absolute;
-    top: 30px;
-    right: 50%;
+ 
     transform: translate(-50%, -50%);
     color: #fff;
 
