@@ -137,7 +137,7 @@ ul {
   background: url("images/coffee.jpg") 50% no-repeat;
   background-size: cover;
   height: 60vh;
-  text-align: center;
+  text-align: right;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
