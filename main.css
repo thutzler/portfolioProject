@@ -179,8 +179,9 @@ ul {
  position: relative;
  background-image: url("images/coffee.jpg");
  background-position: center;
- background-repeat: no-repeat;
  background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
 }
 
 .hero h2 {
