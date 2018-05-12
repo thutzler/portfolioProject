@@ -136,7 +136,7 @@ ul {
 .hero-section {
   background: url("images/coffee.jpg") 50% no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 300px;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
