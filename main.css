@@ -185,6 +185,18 @@ ul {
   z-index: 1;
 }
 
+.display-1{
+  color: ##006666;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.display-2 {
+  color: #006666;
+  text-align: right;
+  padding-right: 1em;
+}
+
 /*
 *
 *PROJECT BLOCKS
