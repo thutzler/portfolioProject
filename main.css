@@ -174,22 +174,21 @@ ul {
 */
 
 .hero {
- height: 100%;
- width: 100%;
- position: relative;
- background-image: url("images/coffee.jpg");
- background-position: center;
- background-size: cover;
- background-repeat: no-repeat;
- background-attachment: fixed;
+    height: 50%;
+    position: relative;
+    background-image: url("images/coffee.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.hero-title h2 {
+.hero-title h1 {
   color:white;
   text-shadow:2px 2px #333;
+
 }
 
-.hero-tagline h4 {
+.hero-tagline h3 {
   color:white;
   text-shadow:2px 2px #333;
 }
