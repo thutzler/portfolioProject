@@ -174,7 +174,7 @@ ul {
 */
 
 .hero-banner {
-  background: url("https://static.pexels.com/photos/248064/pexels-photo-248064.jpeg") 50% no-repeat;
+  background: url("images/coffee.jpeg") 50% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
@@ -190,8 +190,9 @@ ul {
 }
 
 .hero-banner .hero-text {
-  color: #fefefe;
+  color: #fff;
   text-shadow: 1px 1px 2px #0a0a0a;
+  text-align: right;
 }
 
 /*
