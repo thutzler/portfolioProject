@@ -140,10 +140,19 @@ ul {
   height: 300px;
 }
 
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 .hero-title {
    text-align: right;
     position: absolute;
- 
+ 	
     transform: translate(-50%, -50%);
     color: #fff;
 
