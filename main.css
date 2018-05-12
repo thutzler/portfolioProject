@@ -132,17 +132,9 @@ ul {
 *
 */
 
-.hero-banner {
-  background: url("images/coffee.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  height: 300px;
-}
-
-.bgimage h5 {
-  color:white;
-  text-shadow:2px 2px #333;
+.hero__image .carousel-caption{
+  postion:relative;
+  top:35%;
 }
 
 
