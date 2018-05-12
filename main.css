@@ -132,12 +132,13 @@ ul {
 *
 */
 
-.hero {
-  width: 100%;
-  position: relative;
-  background-image: url("./images/coffee.jpg");
+.hero-image {
+  background-image: url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  position: relative;
 }
 
 .hero-text {
@@ -148,13 +149,6 @@ ul {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-.hero-title {
-   text-align: right;
-    position: absolute;
- 	
-    transform: translate(-50%, -50%);
-    color: #fff;
 
 
 /*
