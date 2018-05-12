@@ -184,7 +184,12 @@ ul {
  background-attachment: fixed;
 }
 
-.hero h2 {
+.hero-title h2 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+.hero-tagline h4 {
   color:white;
   text-shadow:2px 2px #333;
 }
