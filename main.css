@@ -141,9 +141,9 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
+  -webkit-align-items: right;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: rightr;
   -webkit-justify-content: right;
       -ms-flex-pack: center;
           justify-content: right;
