@@ -176,7 +176,7 @@ ul {
 .hero-image {
     height: 50%;
     position: relative;
-    background-image: url("images/coffee.jpg");
+    background-image: url("portfolioProject/images/coffee.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
